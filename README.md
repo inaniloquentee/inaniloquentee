@@ -1,6 +1,8 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=24&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hi+there,+I'm+Jiajie+Li+(李佳杰)!;AI+Infra+Engineer;AI4S+%26+PINN+Researcher;Open+Source+Enthusiast" alt="Typing SVG" />
-</h1>
+<h1 align="center">Hi there, I'm Jiajie Li👋</h1>
+
+<h3 align="center">
+  AI Infra Engineer | AI4S & PINN Researcher | Open Source Enthusiast
+</h3>
 
 <p align="center">
   <em>Graduate student at Xi'an Jiaotong University | Bridging AI Infrastructure and Computational Fluid Dynamics.</em>
@@ -15,7 +17,7 @@
 - 🌱 **I’m currently building:** [**Interview Copilot**](https://github.com/inaniloquentee) - an AI-powered tool to streamline technical interview preparation.
 - 💻 **Tech Stack I love:** Building high-performance backend systems with **C++** and **Go**, and exploring the depths of **Redis** architecture.
 - 📝 **Writing:** I regularly share my thoughts and learnings on my [personal blog](https://inaniloquentee.github.io).
-- 📫 **How to reach me:** [在这里填入你的邮箱或社交链接]
+- 📫 **How to reach me:** inani_@stu.xjtu.edu.cn/3051000145@qq.com
 
 ---
 
@@ -33,12 +35,7 @@
 
 ---
 
-### 📊 GitHub Stats & Metrics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=inaniloquentee&show_icons=true&theme=transparent&hide_border=true" alt="Jiajie's GitHub stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=inaniloquentee&layout=compact&theme=transparent&hide_border=true" alt="Top Langs" width="48%" />
-</div>
+### 📊 GitHub Metrics
 
 <div align="center">
   <img src="/github-metrics.svg" alt="Metrics" />
@@ -58,12 +55,4 @@
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=inaniloquentee&theme=transparent&hide_border=true" alt="Activity Graph" width="100%"/>
-</div>
-
----
-
-### 🧩 LeetCode Stats
-
-<div align="center">
-  <img src="https://stats.justsong.cn/api/leetcode?username=inaniloquentee&theme=transparent" alt="LeetCode Stats"/>
 </div>
