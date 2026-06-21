@@ -27,7 +27,6 @@ I enjoy turning systems ideas into practical open-source implementations: effici
 * 🔭 **Currently contributing to:** [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni), a framework for efficient omni-modality model inference and serving.
 * 🚀 **Core contributor to:** [**RL-Kernel / Kernel-Align**](https://github.com/Flink-ddd/Kernel-Align), building high-performance RL post-training infrastructure.
 * 🔬 **Research interests:** Efficient inference, multimodal serving, GRPO/RLHF systems, CUDA kernels, and AI4S/PINN applications.
-* 📝 **Writing:** Engineering notes and learning records on my [personal blog](https://inaniloquentee.github.io).
 
 ---
 
