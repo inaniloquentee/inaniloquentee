@@ -13,7 +13,6 @@
 [![](https://img.shields.io/badge/Email-inani__%40stu.xjtu.edu.cn-red?style=flat-square&logo=gmail)](mailto:inani_@stu.xjtu.edu.cn)
 [![](https://img.shields.io/badge/Location-Xi'an%2C%20China-blue?style=flat-square&logo=google-maps)]()
 [![](https://img.shields.io/badge/GitHub-inaniloquentee-181717?style=flat-square&logo=github)](https://github.com/inaniloquentee)
-[![](https://img.shields.io/badge/Blog-inaniloquentee.github.io-0A66C2?style=flat-square&logo=github-pages)](https://inaniloquentee.github.io)
 
 </div>
 
