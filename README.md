@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=280&section=header&text=Takumi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=XJTU%20%7C%20vLLM-Omni%20Contributor%20%7C%20RL-Kernel%20Core%20Contributor&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=280&section=header&text=Takumi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=XJTU%20%7C%20vLLM-Omni%20Contributor%20%7C%20RL%20Systems%20Engineer&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <h3 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0F4C81&center=true&vCenter=true&width=650&lines=Graduate+Student+%40+XJTU;Contributing+to+vLLM-Omni;Core+Contributor+%40+RL-Kernel;Building+Efficient+RL+Infrastructure" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0F4C81&center=true&vCenter=true&width=650&lines=Graduate+Student+%40+XJTU;Contributing+to+vLLM-Omni;Building+Vime+RL+Infrastructure;CUDA+%2B+ROCm+Systems+Engineering" alt="Typing SVG" />
   </a>
 </h3>
 
@@ -22,11 +22,11 @@
 
 I am a graduate student at **Xi'an Jiaotong University (XJTU)**, focusing on **AI infrastructure**, **LLM serving**, and **RL post-training systems**.
 
-I enjoy turning systems ideas into practical open-source implementations: efficient rollout execution, distributed training workflows, weight synchronization, and CUDA kernel optimization for GRPO-style workloads.
+I enjoy turning systems ideas into practical open-source implementations: efficient rollout execution, distributed training workflows, weight synchronization, and cross-platform GPU optimization for GRPO-style workloads.
 
 * 🔭 **Currently contributing to:** [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni), a framework for efficient omni-modality model inference and serving.
-* 🚀 **Core contributor to:** [**RL-Kernel / Kernel-Align**](https://github.com/Flink-ddd/Kernel-Align), building high-performance RL post-training infrastructure.
-* 🔬 **Research interests:** Efficient inference, multimodal serving, GRPO/RLHF systems, CUDA kernels, and AI4S/PINN applications.
+* 🚀 **Main work:** Leading Vime framework research, fork-roadmap planning, and PR delivery across CUDA and ROCm; integrating Vime with [**RL-Kernel**](https://github.com/RL-Align/RL-Kernel) for reproducible RL training and rollout.
+* 🔬 **Research interests:** Efficient inference, distributed attention, GRPO/RLHF systems, linear-logp providers, and cross-platform GPU performance.
 
 ---
 
@@ -35,20 +35,21 @@ I enjoy turning systems ideas into practical open-source implementations: effici
 | **Project** | **Focus** | **Status** |
 | :--- | :--- | :---: |
 | [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni) | Efficient omni-modality model inference and serving in the vLLM ecosystem | 🔥 **Contributing** |
-| [**RL-Kernel / Kernel-Align**](https://github.com/Flink-ddd/Kernel-Align) | High-performance infrastructure for RL post-training and kernel optimization | ⚡ **Core Contributor** |
+| [**Vime**](https://github.com/vllm-project/vime) | RL framework integration, roadmap planning, and end-to-end training/rollout validation | ⚡ **Lead contributor** |
+| [**RL-Kernel**](https://github.com/RL-Align/RL-Kernel) | GPU kernels and strict runtime validation consumed by Vime on CUDA and ROCm | 🤝 **Contributor** |
 
 ---
 
-### 🧩 **Selected RL-Kernel Work**
+### 🧩 **Selected Systems Work**
 
 | **Area** | **Selected Work** |
 | :--- | :--- |
-| **vLLM Rollout** | Shared-prefix caching for GRPO candidate generation, lazy sampler construction, grouped outputs, and normalized rollout schemas |
-| **Training & Distributed Runtime** | DeepSpeed training workers, Ray actor orchestration, health checks, cleanup, and real CUDA/NCCL smoke validation |
-| **Overlap Pipeline** | Asynchronous rollout and training execution with explicit versioned weight publication |
-| **Weight Synchronization** | Low-copy and shared-memory bridge contracts with publish/import/ack/release lifecycle handling |
-| **RL Kernel Validation** | RL-shaped fixtures, PyTorch reference operators, benchmark adapters, and loss-step tests for logprob, ratio, KL, masking, and objective drift |
-| **CUDA Optimization** | Fused selected-logprob kernel paths for GRPO-style workloads with RL-shaped benchmark and profiling evidence |
+| **Vime framework and delivery** | Framework investigation, fork-version roadmap planning, upstream PR delivery, and reproducible experiment documentation ([PR #409](https://github.com/RL-Align/RL-Kernel/pull/409), [PR #287](https://github.com/RL-Align/RL-Kernel/pull/287)) |
+| **CUDA + ROCm integration** | Led the Vime provider boundary for linear log-probabilities on both GPU stacks, preserving Vime's loss semantics and native fallback ([CUDA PR #424](https://github.com/vllm-project/vime/pull/424), [ROCm PR #423](https://github.com/vllm-project/vime/pull/423)) |
+| **Distributed Attention** | Developed and validated paged/CP attention paths, including FlashInfer RoPE-fused attention, CP drift checks, and bitwise ROCm schedules ([PR #279](https://github.com/RL-Align/RL-Kernel/pull/279), [PR #284](https://github.com/RL-Align/RL-Kernel/pull/284), [PR #319](https://github.com/RL-Align/RL-Kernel/pull/319), [PR #394](https://github.com/RL-Align/RL-Kernel/pull/394)) |
+| **Deterministic runtime and performance** | CUDA Graph capture, tensor-parallel all-reduce optimization, strict runtime modes, and cross-configuration kernel validation ([PR #344](https://github.com/RL-Align/RL-Kernel/pull/344), [PR #360](https://github.com/RL-Align/RL-Kernel/pull/360), [PR #365](https://github.com/RL-Align/RL-Kernel/pull/365), [PR #367](https://github.com/RL-Align/RL-Kernel/pull/367)) |
+| **End-to-end RL validation** | Ran matched native/provider train-rollout consistency experiments, TP/CP ablations, bitwise checks, throughput profiling, and performance tuning on Qwen3 workloads ([PR #377](https://github.com/RL-Align/RL-Kernel/pull/377), [PR #388](https://github.com/RL-Align/RL-Kernel/pull/388), [PR #400](https://github.com/RL-Align/RL-Kernel/pull/400), [PR #403](https://github.com/RL-Align/RL-Kernel/pull/403)) |
+| **Linear-logp experiments and integration** | Designed the structured provider contract, TP vocabulary partition handling, autograd checks, and technical write-ups for portable log-probability execution ([PR #336](https://github.com/RL-Align/RL-Kernel/pull/336), [PR #352](https://github.com/RL-Align/RL-Kernel/pull/352), [PR #338](https://github.com/RL-Align/RL-Kernel/pull/338)) |
 
 ---
 
