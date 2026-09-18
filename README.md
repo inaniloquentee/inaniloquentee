@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=280&section=header&text=Takumi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=XJTU%20%7C%20vLLM-Omni%20Contributor%20%7C%20RL%20Systems%20Engineer&descAlignY=60&descAlign=50" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,100:0072ff&height=280&section=header&text=Takumi&fontSize=80&animation=fadeIn&fontAlignY=35&desc=XJTU%20%7C%20RL%20Kernel%20Maintainer%20%7C%20RL%20Systems%20Engineer&descAlignY=60&descAlign=50" width="100%"/>
 </div>
 
 <h3 align="center">
@@ -26,7 +26,7 @@ I enjoy turning systems ideas into practical open-source implementations: effici
 
 * 🔭 **Currently contributing to:** [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni), a framework for efficient omni-modality model inference and serving.
 * 🚀 **Main work:** Leading Vime framework research, fork-roadmap planning, and PR delivery across CUDA and ROCm; integrating Vime with [**RL-Kernel**](https://github.com/RL-Align/RL-Kernel) for reproducible RL training and rollout.
-* 🔬 **Research interests:** Efficient inference, distributed attention, GRPO/RLHF systems, linear-logp providers, and cross-platform GPU performance.
+* 🔬 **Research interests:** Efficient inference, distributed attention, GRPO/RLHF systems, and cross-platform GPU performance.
 
 ---
 
@@ -34,9 +34,9 @@ I enjoy turning systems ideas into practical open-source implementations: effici
 
 | **Project** | **Focus** | **Status** |
 | :--- | :--- | :---: |
-| [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni) | Efficient omni-modality model inference and serving in the vLLM ecosystem | 🔥 **Contributing** |
-| [**Vime**](https://github.com/vllm-project/vime) | RL framework integration, roadmap planning, and end-to-end training/rollout validation | ⚡ **Lead contributor** |
-| [**RL-Kernel**](https://github.com/RL-Align/RL-Kernel) | GPU kernels and strict runtime validation consumed by Vime on CUDA and ROCm | 🤝 **Contributor** |
+| [**vLLM-Omni**](https://github.com/vllm-project/vllm-omni) | Efficient omni-modality model inference and serving in the vLLM ecosystem | 🔥 **Contributor** |
+| [**Vime**](https://github.com/vllm-project/vime) | RL framework integration, roadmap planning, and end-to-end training/rollout validation | ⚡ **Contributor** |
+| [**RL-Kernel**](https://github.com/RL-Align/RL-Kernel) | GPU kernels and strict runtime validation consumed by Vime on CUDA and ROCm | 🤝 **Maintainer** |
 
 ---
 
@@ -44,12 +44,12 @@ I enjoy turning systems ideas into practical open-source implementations: effici
 
 | **Area** | **Selected Work** |
 | :--- | :--- |
-| **Vime framework and delivery** | Framework investigation, fork-version roadmap planning, upstream PR delivery, and reproducible experiment documentation ([PR #409](https://github.com/RL-Align/RL-Kernel/pull/409), [PR #287](https://github.com/RL-Align/RL-Kernel/pull/287)) |
-| **CUDA + ROCm integration** | Led the Vime provider boundary for linear log-probabilities on both GPU stacks, preserving Vime's loss semantics and native fallback ([CUDA PR #424](https://github.com/vllm-project/vime/pull/424), [ROCm PR #423](https://github.com/vllm-project/vime/pull/423)) |
-| **Distributed Attention** | Developed and validated paged/CP attention paths, including FlashInfer RoPE-fused attention, CP drift checks, and bitwise ROCm schedules ([PR #279](https://github.com/RL-Align/RL-Kernel/pull/279), [PR #284](https://github.com/RL-Align/RL-Kernel/pull/284), [PR #319](https://github.com/RL-Align/RL-Kernel/pull/319), [PR #394](https://github.com/RL-Align/RL-Kernel/pull/394)) |
-| **Deterministic runtime and performance** | CUDA Graph capture, tensor-parallel all-reduce optimization, strict runtime modes, and cross-configuration kernel validation ([PR #344](https://github.com/RL-Align/RL-Kernel/pull/344), [PR #360](https://github.com/RL-Align/RL-Kernel/pull/360), [PR #365](https://github.com/RL-Align/RL-Kernel/pull/365), [PR #367](https://github.com/RL-Align/RL-Kernel/pull/367)) |
-| **End-to-end RL validation** | Ran matched native/provider train-rollout consistency experiments, TP/CP ablations, bitwise checks, throughput profiling, and performance tuning on Qwen3 workloads ([PR #377](https://github.com/RL-Align/RL-Kernel/pull/377), [PR #388](https://github.com/RL-Align/RL-Kernel/pull/388), [PR #400](https://github.com/RL-Align/RL-Kernel/pull/400), [PR #403](https://github.com/RL-Align/RL-Kernel/pull/403)) |
-| **Linear-logp experiments and integration** | Designed the structured provider contract, TP vocabulary partition handling, autograd checks, and technical write-ups for portable log-probability execution ([PR #336](https://github.com/RL-Align/RL-Kernel/pull/336), [PR #352](https://github.com/RL-Align/RL-Kernel/pull/352), [PR #338](https://github.com/RL-Align/RL-Kernel/pull/338)) |
+| **Vime framework and delivery** | Framework investigation, fork-version roadmap planning, upstream contribution delivery, and reproducible experiment documentation |
+| **CUDA + ROCm integration** | Led the Vime provider boundary across both GPU stacks, preserving Vime's loss semantics and native fallback |
+| **Distributed Attention** | Developed and validated paged/CP attention paths, including FlashInfer RoPE-fused attention, CP drift checks, and bitwise ROCm schedules |
+| **Deterministic runtime and performance** | CUDA Graph capture, tensor-parallel all-reduce optimization, strict runtime modes, and cross-configuration kernel validation |
+| **End-to-end RL validation** | Ran matched native/provider train-rollout consistency experiments, TP/CP ablations, bitwise checks, throughput profiling, and performance tuning on Qwen3 workloads |
+| **Provider integration** | Designed structured provider contracts, TP vocabulary partition handling, autograd checks, and technical write-ups for portable log-probability execution |
 
 ---
 
@@ -86,7 +86,7 @@ I enjoy turning systems ideas into practical open-source implementations: effici
   <br>
   <br>
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=inaniloquentee&theme=tokyo-night&hide_border=true" alt="Activity Graph" width="100%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=inaniloquentee&theme=github_dark" alt="Activity Graph" width="100%"/>
 </div>
 
 ---
